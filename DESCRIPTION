@@ -1,0 +1,17 @@
+Package: moduleR
+Type: Package
+Title: moduleR makes writing module easy.
+Version: 0.1
+Author: DataCanvasIO, Xiaolin Zhang
+Maintainer: Xiaolin Zhang <zhangxl@zetyun.com>
+Description: A package to provide basic functionalities for writing a module.
+Depends:
+    R (>= 3.0.0)
+License: BSD_3_clause + file LICENSE
+URL: https://github.com/DataCanvasIO/ModuleRuntime
+BugReports: https://github.com/DataCanvasIO/ModuleRuntime/issues
+LazyData: true
+Imports:
+    jsonlite
+Suggests:
+    testthat
